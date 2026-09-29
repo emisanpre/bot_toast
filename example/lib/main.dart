@@ -8,8 +8,8 @@ import 'custom/custom_widget.dart';
 import 'loading/custom_loading.dart';
 import 'loading/loading.dart';
 import 'notification/custom_notification.dart';
-import 'notification/simple_notification.dart';
 import 'notification/notification.dart' as notification;
+import 'notification/simple_notification.dart';
 import 'text/custom_text.dart';
 import 'text/text.dart';
 
@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          primary: Colors.grey[300],
-          onPrimary: Colors.black,
+          backgroundColor: Colors.grey[300],
+          foregroundColor: Colors.black,
         ),
       )),
       builder: BotToastInit(),
